@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+ /* background-color: #011F3F; */
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  display: flex;
+height: 100vh;
+}
+#Money{
+  flex: 0.5;
+  margin-left: 0px;
+  padding-left: 0%;
+  font-size: 40px;
+  color: #fef2bf;
+  font-family:'Press Start 2P', cursive;
+  display: inline-flex;
+}
+img{
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 0%;
+}
+#moneyValue{
+  font-size: 50px;
+  margin-left: 0px;
+  width: 50px;
+}
+.Animate{ 
+  animation: flash 1s linear infinite;}
+
+ #countdown {
+  font-size: 50px;
+  color: #FEF2BF;
+  animation: flash 1s linear infinite;
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 10px;
+  justify-self: center;
+  align-self: center;
+  
+}
+#countdown {
+  flex:1
+  
+}
+
+
+
+
+
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<style> #countdown {
+    font-size: 70px;
+    color:#FEF2BF;
+    animation: flash 1s linear infinite;
+    font-family:'Press Start 2P', cursive;
+  }
+  @keyframes flash {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+ 
+
+
+
+
+</head>
+
+<body class="flex-container  ">
+ <div class="flex-container  ">
+    <div id="Money" class=" ms-0 me-0 col-sm-3">
+      <img src="./gold-south-african-rand-coin-18564.svg"alt=" A briefcase icon" height="60px" />
+      <div id="moneyValue" class="ms-0 " height="50px" width="70px">0</div>
+    </div>
+  <div id="countdown" class="col-sm-6">10 </div>
+ </div>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./index.js"></script>
+</body>
+
+</html>
