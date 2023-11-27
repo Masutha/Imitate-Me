@@ -137,9 +137,10 @@ $(".btn").click(function(event){
          Doyile.play();
          $("body").addClass("game-over");
          $("#level-title").text("Game Over, Press Any Key to Restart")
+             MoneyCash=0;
+            document.getElementById('moneyValue').innerHTML= MoneyCash;
          setTimeout(function(){ $("body").removeClass("game-over")},500);
-         MoneyCash=0;
-       document.getElementById('moneyValue').innerHTML= MoneyCash;
+        
    }
 }
 ///end of Game Sequence
@@ -177,7 +178,8 @@ function GameOver(){
    Doyile.play();
    $("body").addClass("game-over");
    $("#level-title").text("Game Over, Press Any Key to Restart")
-   setTimeout(function(){ $("body").removeClass("game-over")},500);
-     MoneyCash=0;
+       MoneyCash=0;
        document.getElementById('moneyValue').innerHTML= MoneyCash;
+   setTimeout(function(){ $("body").removeClass("game-over")},500);
+     
 }
