@@ -111,7 +111,7 @@ $(".btn").click(function(event){
          level++;
           MoneyCash+=10;//Money Reward
            document.getElementById('moneyValue').innerHTML= MoneyCash;
-           console.log(document.getElementById('moneyValue').innerHTML);
+          // console.log(document.getElementById('moneyValue').innerHTML);
          levelArray.push(level)
          $("#level-title").text("Level: "+level)//WINNING A LEVEL
          
@@ -139,6 +139,7 @@ $(".btn").click(function(event){
          $("#level-title").text("Game Over, Press Any Key to Restart")
          setTimeout(function(){ $("body").removeClass("game-over")},500);
          MoneyCash=0;
+       document.getElementById('moneyValue').innerHTML= MoneyCash;
    }
 }
 ///end of Game Sequence
@@ -177,4 +178,6 @@ function GameOver(){
    $("body").addClass("game-over");
    $("#level-title").text("Game Over, Press Any Key to Restart")
    setTimeout(function(){ $("body").removeClass("game-over")},500);
+     MoneyCash=0;
+       document.getElementById('moneyValue').innerHTML= MoneyCash;
 }
